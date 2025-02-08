@@ -1,13 +1,7 @@
 import streamlit as st
 import requests
-from dotenv import load_dotenv
-import os
 
-
-load_dotenv()
-
-BASE_URL= os.getenv("API_URL")
-
+BASE_URL = st.secrets["API_URL"]
 
 
 st.set_page_config(page_title="Treasure Hunt", page_icon="🏴‍☠️")
