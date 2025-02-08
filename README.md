@@ -1,7 +1,3 @@
-Here's a well-structured **README.md** file for your Streamlit-based **Treasure Hunt** game. 🚀  
-
----
-
 ## 🏴‍☠️ Treasure Hunt - Resonance'25  
 
 ### 🎯 **Overview**  
