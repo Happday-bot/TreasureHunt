@@ -27,7 +27,7 @@ def login():
 
 def game_play():
     st.write(f"**Current Location:** {st.session_state.location_name}")
-    st.write(f"**Question:** {st.session_state.q1}")
+   
     answer = st.text_input("Your Answer")
     if st.button("Submit Answer"):
         response = requests.post(f"{BASE_URL}/submit_answer", json={"user_id": st.session_state.user_id, "answer": answer})
