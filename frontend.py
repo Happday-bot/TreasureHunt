@@ -1,8 +1,7 @@
 import streamlit as st
 import requests
-import os
 
-BASE_URL= os.getenv("API_URL")
+BASE_URL= st.secrects("API_URL")
 
 
 
